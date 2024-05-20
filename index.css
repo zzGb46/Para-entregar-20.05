@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to top, black,gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    background-image: url(para\ colocar\ no\ titulo\ do\ trabalho.gif);
+    background-repeat: no-repeat;
+    background-position: 420px;
+    background-position-y: -280px;
+    font-family: fantasy;
+    color: transparent;
+    background-clip: text;
+   letter-spacing: 5px;
+    background-size: 1000px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+  
+}
+main{
+    display: flex;
+  
+}
+p{
+    
+    color: white;
+    font-size: 40px;
+    margin-right: 600px;
+    margin-top: 150px;
+    
+   
+}
+#primeira{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    margin-left: 1300px;
+    margin-top: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 15px solid purple;
+    animation: fotinha 3s ease-in-out infinite;
+}
+
+@keyframes fotinha{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+#text2{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 500px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+    box-shadow: 2px 2px 2px 2px purple;
+    
+}
+
+#text2:hover{
+
+transform: scale(1.05);
+}
+
+#dois{
+    border-radius: 50%;
+    margin-left: 850px;
+    margin-top: 100px;
+    height: 200px;
+   
+}
